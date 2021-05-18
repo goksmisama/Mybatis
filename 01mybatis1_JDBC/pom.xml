@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.marui</groupId>
-    <artifactId>mybatis_JDBC</artifactId>
+    <artifactId>01mybatis_JDBC</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
