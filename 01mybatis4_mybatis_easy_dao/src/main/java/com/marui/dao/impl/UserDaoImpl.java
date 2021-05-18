@@ -27,6 +27,7 @@ public class UserDaoImpl implements IUserDao {
     @Override
     public List<User> findAll() {
         SqlSession sqlSession = sqlSessionFactory.openSession();
+        //通过"com.marui.dao.IUserDao.findAll"找到sql语句生成预处理器对象，执行查询后返回结果
         List<User> list = sqlSession.selectList("com.marui.dao.IUserDao.findAll");
         sqlSession.close();
         return list;
